@@ -1,0 +1,5 @@
+4
+   a	10144200
+   abandon	15323
+   ability	51476
+   able	103171
