@@ -10,7 +10,10 @@ public class Term implements Comparable<Term> {
 
     public String toString(){
         return "Wt: " + freq + "\t " + word + "\n";
+//        return "Wt: " + freq + "\t " + word;
+
     }
+
 
     public int compareTo(Term t2){
         if (this.freq==t2.freq) return 0;
