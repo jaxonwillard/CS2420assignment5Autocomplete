@@ -71,7 +71,7 @@ public class LeftistHeap<AnyType extends Comparable<? super AnyType>> {
             h1.right = merge(h1.right, h2);
 //            if (h1.left.npl < h1.right.npl)
             swapChildren(h1);
-            h1.npl = h1.right.npl + 1;
+//            h1.npl = h1.right.npl + 1;
         }
         return h1;
     }
@@ -188,6 +188,11 @@ public class LeftistHeap<AnyType extends Comparable<? super AnyType>> {
     private LeftistNode<AnyType> root;    // root
 
     public static void main(String[] args) {
+        String accou = "accou";
+        String account = "account";
+        System.out.println();
+
+
 //        int numItems = 100;
 //        LeftistHeap<Integer> h = new LeftistHeap<>();
 //        LeftistHeap<Integer> h1 = new LeftistHeap<>();
